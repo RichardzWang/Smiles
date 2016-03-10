@@ -1,8 +1,4 @@
-// Richard Wang
-// APCS2 pd5
-// HW09 -- Mergers and Acquisitions
-// 2015-03-06
-
+// Team Smiles
 /*======================================
   class MergeSort
   Implements mergesort on array of ints.
