@@ -22,9 +22,9 @@ public class MergeSortTester
     {
 	long startTime, endTime, totalTime;
 
-	for (int c = 100; c < 1000; c++) {
+	for (int c = 1; c < 100000000 ; c*= 2) {
 	    
-	    for (int i = 1; i < 100000000 ; i*= 2) { // 10 to the 8 {
+	    for  (int i = 100; i < 1000; i++){ // 10 to the 8 {
 
 
 		int[] arr = createArray(c);
