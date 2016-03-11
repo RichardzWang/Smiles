@@ -24,7 +24,7 @@ public class MergeSortTester
 
 	for (int c = 1; c < 100000000 ; c*= 2) { //10^8
 	    
-	    for  (int i = 1; i < 100; i++){  {
+	    for  (int i = 1; i < 100; i++){  
 
 
 		int[] arr = createArray(c);
