@@ -1,4 +1,10 @@
-// Team Smiles
+// Team Smiles - Richard Wang, David Merlinsky, Ling Cheng
+// APCS2 - pd5
+// HW11 -- Wrapping It Up
+// 2016-03-10
+
+
+
 /*======================================
   class MergeSort
   Implements mergesort on array of ints.
