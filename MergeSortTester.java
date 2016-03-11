@@ -22,9 +22,9 @@ public class MergeSortTester
     {
 	long startTime, endTime, totalTime;
 
-	for (int c = 1; c < 100000000 ; c*= 2) {
+	for (int c = 1; c < 100000000 ; c*= 2) { //10^8
 	    
-	    for  (int i = 100; i < 1000; i++){ // 10 to the 8 {
+	    for  (int i = 1; i < 100; i++){  {
 
 
 		int[] arr = createArray(c);
@@ -32,7 +32,7 @@ public class MergeSortTester
 		MergeSort.sort(arr);
 		endTime = System.nanoTime();
 		totalTime = endTime - startTime;
-		if (i < 999){
+		if (i < 99){
 		    System.out.print(totalTime + ",");
 		}
 		else {
