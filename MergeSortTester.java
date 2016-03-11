@@ -22,7 +22,7 @@ public class MergeSortTester
     {
 	long startTime, endTime, totalTime;
 
-	for (int c = 1; c < 10000000 ; c*= 2) { //10^7
+	for (int c = 100; c < 100000 ; c+= 100) { //10^6
 	    
 	    for  (int i = 1; i < 20; i++){  
 
